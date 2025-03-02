@@ -1,0 +1,12 @@
+artifacts_root: dataset
+
+
+data_ingestion:
+  root_dir: "artifacts/data_ingestion"
+  dataset_path: "dataset/newdata.csv"
+
+
+data_validation:
+root_dir: dataset/
+unzip_data_dir: dataset/newdata.csv
+STATUS_FILE: dataset/status.txt
